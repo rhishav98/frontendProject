@@ -1,0 +1,55 @@
+.apps {
+    width: 100vh;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebars {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(12, 67, 67);
+}
+
+.sidebarList {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.sidebarList .row {
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: rgb(187, 229, 155);
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarList #active {
+    background-color: rgba(208, 229, 222, 0.433);
+}
+
+.sidebarList .row:hover {
+    cursor: pointer;
+    background-color: rgba(30, 201, 144, 0.433);
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title {
+    flex: 70%;
+}
+
+
+/*Navbar*/

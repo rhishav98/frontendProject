@@ -1,0 +1,40 @@
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    padding: 0px 16px;
+    background-color: #fff;
+}
+
+h1 {
+    color: tomato;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border: none;
+    background-color: rgb(7, 91, 63);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    /* padding-left: 40%; */
+    margin-left: 40%;
+}
+
+p {
+    color: rgba(13, 0, 0, 0.952);
+}
